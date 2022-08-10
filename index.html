@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Special+Elite&display=swap" rel="stylesheet">
+  <link rel ="stylesheet" href="style.css">
+  <title>New Enigma</title>
+</head>
+<body >
+  
+  <header>
+    <img src="assets/LogoAlura.svg" alt="Logo da alura">
+    <img src="assets/maisSinal.svg" alt="Sinal de mais" id="sinal_mais">
+    <img src="assets/logoOracle.svg" alt="Logo da Oracle" id="logo_oracle">
+  </header>
+
+    <main id="areas_texto">
+  
+      <div id="titulo"><h1 >ESSA É A NEW ENIGMA</h1></div>
+      <section id="areas_texto">
+
+        <section id="area_texto_entrada">
+          
+          <textarea id="texto_entrada" class="area_de_texto" name="area_texto_entrada"  cols="30" rows="10"></textarea>
+    
+          <div>
+            <button id="btn-cript">CODIFICAR</button>
+            <button id="btn-descript">DESCODIFICAR</button>
+          </div>
+        
+        </section>
+    
+    
+        <section id="area_texto_saida">
+          <textarea id="texto_saida" class="area_de_texto" name="area_texto_saida"  cols="30" rows="10" disabled=""></textarea>
+    
+          <div>
+            <button id="btn-copiar" onclick="copiarTexto()">COPIAR</a></button>
+          </div>
+          
+        </section>
+
+      </section>
+
+      <!-- <div id="mostrar_footer">
+      <button><img src="assets/seta.svg" alt="Seta para abrir footer"></button>
+      </div> -->
+    </main>
+
+  <footer id="footer">
+    <h2 id="desenvolvedor">CRIADO POR LEANDRO S ALMEIDA</h2>
+    <H2 id="frase_efeito">NEM TENTE QUEBRAR ESSA CRIPTOGRAFIA</H2>
+  </footer>
+
+<script src="script.js"></script>
+  
+</body>
+</html>

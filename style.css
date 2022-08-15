@@ -5,6 +5,7 @@
 
 body {
   background-color: black;
+  max-width: 100%;
 }
 
 #titulo {
@@ -14,7 +15,6 @@ body {
 }
 
 header {
-  width: 100%;
   display: flex;
   padding: 20px 80px;
   background-color: rgba(255, 255, 255, 0.05);
@@ -101,10 +101,10 @@ button:active {
 }
 
 footer {
-  width: 100%;
+  max-width: 100%;
 
   display: flex;
-  padding: 19px;
+  padding: 27px;
   color: white;
 
   justify-content: space-evenly;

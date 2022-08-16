@@ -5,6 +5,7 @@ let textoSaida = document.getElementById("texto_saida");
 const btnCriptografar = document.getElementById("btn-cript");
 const btnDescriptografar = document.getElementById("btn-descript");
 const btnCopiar = document.getElementById("btn-copiar");
+const btnLimpar = document.getElementById("btn-limpar");
 
 function copiarTexto() {
   navigator.clipboard.writeText(textoSaida.value);
@@ -33,6 +34,16 @@ function desencriptarTexto() {
   textoSaida.value = fraseDesencriptada;
 }
 
+function limparDados() {
+  document.getElementById('texto_entrada').value=" ";
+  document.getElementById('texto_saida').value=" ";
+}
+
+
+btnLimpar.addEventListener("click" , (event)=> {
+  event.preventDefault();
+  limparDados();
+})
 
 
 btnCriptografar.addEventListener("click", (event) => {

@@ -84,6 +84,10 @@ button {
   transition: 0.2s all;
 }
 
+#btn-limpar {
+  background:rgba(170,0,0, .7);
+}
+
 button:active {
   transform: scale(0.98);
   box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
@@ -104,7 +108,7 @@ footer {
   max-width: 100%;
 
   display: flex;
-  padding: 27px;
+  padding: 25px;
   color: white;
 
   justify-content: space-evenly;

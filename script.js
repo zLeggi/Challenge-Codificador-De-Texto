@@ -35,8 +35,8 @@ function desencriptarTexto() {
 }
 
 function limparDados() {
-  document.getElementById('texto_entrada').value=" ";
-  document.getElementById('texto_saida').value=" ";
+  document.getElementById('texto_entrada').value="";
+  document.getElementById('texto_saida').value="";
 }
 
 
